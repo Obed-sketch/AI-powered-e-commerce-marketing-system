@@ -24,3 +24,7 @@ Deployment: Docker, Kubernetes, AWS SageMaker
 Monitoring: Prometheus/Grafana, ELK Stack
 Workflow: Apache Airflow, Prefect
 
+# Deployment Steps:
+Containerize application: docker build -t marketing-ai .
+Push to container registry: docker push your-registry/marketing-ai
+Deploy to cloud service (e.g., AWS ECS or GCP Cloud Run)
